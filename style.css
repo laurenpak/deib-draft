@@ -124,7 +124,7 @@ body {
 
 .tabbable-group {
   width: 50vw;
-  background-color: #fdfff433;
+  background-color: #fdfff4;
   margin: auto auto 2rem;
   padding: 20px 30px;
   border-radius: 20px;
@@ -324,7 +324,7 @@ browser window really skinny */
   opacity: 50%;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, #00FF00, #ff7300, #00FF00, #ff7300);
+  background: linear-gradient(45deg, #250bea, #dc2808, #250bea, #dc2808);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
 }
@@ -347,12 +347,22 @@ browser window really skinny */
   opacity: 50%;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(45deg, #a100ff, #ffffff, #a100ff, #ffffff);
+  background: linear-gradient(45deg, #3809e4, #ef7a05dd, #3809e4, #ef7a05dd);
   background-size: 400% 400%;
   animation: gradient 25s ease infinite;
 
 }
+.yellow-gradient {
+  position: absolute;
+  z-index: -3;
+  opacity: 50%;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, yellow, rgb(5, 113, 236), yellow, rgb(5, 113, 236));
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
 
+}
 .green-gradient {
   position: absolute;
   z-index: -4;
@@ -468,7 +478,7 @@ h1 {
 .intro-text {
   font-size: 20px;
   margin: 5% 25% 3%;
-  background: #fdfff433;
+  background: white;
   border-radius: 20px;
   padding: 2vh 4vw;
 }
@@ -613,7 +623,7 @@ browser window really skinny */
 
   .tabbable-group{
     width: 90vw;
-    background: #fdfff433;
+    background: #fdfff4;
   }
   
 
