@@ -124,7 +124,7 @@ body {
 
 .tabbable-group {
   width: 50vw;
-  background-color: rgb(255, 255, 255, 1);
+  background-color: #fdfff433;
   margin: auto auto 2rem;
   padding: 20px 30px;
   border-radius: 20px;
@@ -397,6 +397,7 @@ browser window really skinny */
   margin-left: 25%;
   margin-right: 25%;
   text-align: center;
+ 
 }
 
 .header {
@@ -467,7 +468,8 @@ h1 {
 .intro-text {
   font-size: 20px;
   margin: 5% 25% 3%;
-  background: white;
+  background: #fdfff433;
+  border-radius: 20px;
   padding: 2vh 4vw;
 }
 
@@ -611,7 +613,9 @@ browser window really skinny */
 
   .tabbable-group{
     width: 90vw;
+    background: #fdfff433;
   }
+  
 
   .two-col-box{
     width: 90vw;
@@ -620,6 +624,7 @@ browser window really skinny */
   .intro-text{
     margin-left: 5%;
     margin-right: 5%;
+   
   }
 
   .backToTop{
@@ -658,6 +663,7 @@ browser window really skinny */
     text-align: center;
   }
 }
+
 
 @media screen and (max-width: 520px) {
   .whiteHeaderText  .title1{
