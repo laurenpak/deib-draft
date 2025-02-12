@@ -509,6 +509,7 @@ h1 {
 .credits {
   text-align: left;
   font-size: 1.5rem;
+  padding-bottom: 4rem;
 }
 
 .credit-heading{
